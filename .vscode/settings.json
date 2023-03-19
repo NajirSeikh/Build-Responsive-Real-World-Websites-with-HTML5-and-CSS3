@@ -1,6 +1,6 @@
 {
-  "auto-close-tag.enableAutoCloseTag": false,
-  "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
