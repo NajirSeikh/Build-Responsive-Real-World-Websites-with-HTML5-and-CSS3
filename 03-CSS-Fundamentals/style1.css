@@ -1,0 +1,40 @@
+article {
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+
+.upr {
+  text-transform: uppercase;
+}
+
+h2 {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+#rate {
+  font-size: 20px;
+}
+
+#free {
+  font-size: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: square;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
