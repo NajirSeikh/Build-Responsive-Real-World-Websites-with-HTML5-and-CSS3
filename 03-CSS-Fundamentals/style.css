@@ -126,3 +126,20 @@ a:active {
   font-style: italic;
 }
 /* LVHA */
+
+/* Resolving Conflict */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} */
