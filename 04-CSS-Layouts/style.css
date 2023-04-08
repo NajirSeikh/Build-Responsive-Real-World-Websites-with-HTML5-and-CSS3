@@ -23,6 +23,7 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
+  background-color: crimson;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -287,4 +288,14 @@ h1 {
 
 nav {
   float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
 }
