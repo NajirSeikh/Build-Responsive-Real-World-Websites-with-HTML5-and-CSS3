@@ -368,10 +368,10 @@ article {
 
 aside {
   /* 
-        DEFAULTS 
-        flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto; 
-        */
+  DEFAULTS 
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto; 
+  */
   flex: 0 0 300px;
 }
