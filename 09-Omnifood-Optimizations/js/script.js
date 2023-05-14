@@ -1,15 +1,16 @@
-console.log('Hello World!');
+console.log('Hello world!');
 
 const myName = 'Najir Seikh';
 const h1 = document.querySelector('.heading-primary');
 console.log(myName);
 console.log(h1);
 
-// h1.addEventListener('click', function () {
+// h1.addEventListener("click", function () {
 //   h1.textContent = myName;
-//   h1.style.backgroundColor = 'red';
-//   h1.style.padding = '5rem';
+//   h1.style.backgroundColor = "red";
+//   h1.style.padding = "5rem";
 // });
+
 ///////////////////////////////////////////////////////////
 // Set current year
 const yearEl = document.querySelector('.year');
@@ -28,16 +29,13 @@ btnNavEl.addEventListener('click', function () {
 
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
+
 const allLinks = document.querySelectorAll('a:link');
-// console.log(allLinks);
 
 allLinks.forEach(function (link) {
   link.addEventListener('click', function (e) {
-    // console.log(e);
-
     e.preventDefault();
     const href = link.getAttribute('href');
-    // console.log(href);
 
     // Scroll back to top
     if (href === '#')
@@ -52,7 +50,7 @@ allLinks.forEach(function (link) {
       sectionEl.scrollIntoView({ behavior: 'smooth' });
     }
 
-    // Close mobile navigation
+    // Close mobile naviagtion
     if (link.classList.contains('main-nav-link'))
       headerEl.classList.toggle('nav-open');
   });
@@ -66,7 +64,7 @@ const sectionHeroEl = document.querySelector('.section-hero');
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    // console.log(ent);
+    console.log(ent);
 
     if (ent.isIntersecting === false) {
       document.body.classList.add('sticky');
