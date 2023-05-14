@@ -124,6 +124,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -161,11 +162,11 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  .nav-open .icon-mobile-nav[name='close-outline'] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
     display: none;
   }
 
